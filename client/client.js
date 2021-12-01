@@ -2,7 +2,7 @@ const net = require ('net');
 const readline = require('readline-sync'); //objeto para leer una linea
 const servidor = { //variable servidor en la que se declara el puerto y la conexion
     port:3000,
-    host: 'localhost'
+    host: '192.168.43.181'
 }
 
 const client = net.createConnection(servidor); //se crea una conexion con el servidor
